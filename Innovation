@@ -33,3 +33,14 @@ GraphQL:
 	in GraphQL single call is required thus saving time on multiple calls.
 	
 	
+Jest versus Vite:
+Jest and Vite are both frontend testing tools/frameworks. Jest, being older and more mature, contrasts with Vite, which offers unique features as a newer product. Both exhibit comparable performance. An analysis was conducted to determine the superior option, evaluating criteria such as pros and cons, version history and release frequency, stability, community size, and performance. The analysis results were shared with the Product Owner (PO) and the team. After thorough consideration, the team concluded that transitioning from Jest to Vite would entail additional overhead without significant advantages. Consequently, the team opted to remain with Jest, thereby saving additional efforts.
+
+Dynatrace:
+Dynatrace, a unified observability and security platform, utilizes AI for infrastructure monitoring, application and microservices monitoring, application security, digital experience monitoring, business analytics, and cloud automation. The Holger application is already integrated with Dynatrace, allowing for the monitoring of various Holger activities such as user interactions, types and volumes of requests and responses, security measures, and potential attacks.
+
+SCD Deployment Using DevOps in Bitbucket:
+The deployment of a new project, namely SCD, utilizing DevOps in Bitbucket has revolutionized the deployment process, reducing deployment cycles and facilitating faster product releases. Bitbucket, a code management tool, boasts CI/CD capabilities and integrates seamlessly with JIRA and Cloud services.
+
+GraphQL:
+GraphQL, an open-source data query and manipulation language for APIs, provides a query runtime engine. It enables declarative data fetching, allowing clients to specify precisely the data they require from an API. The implementation of REST with GraphQL aims to fetch only necessary data, eliminating issues like over-fetching or under-fetching common in traditional REST calls. Additionally, in scenarios involving complexity, GraphQL's single-call approach contrasts with the multiple calls required in traditional REST, thereby saving time and resources.
