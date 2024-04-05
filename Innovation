@@ -1,0 +1,35 @@
+Jest vs Vite: 
+	Jest and Vite, both are FrontEnd testing tools/framework. 
+	Jest is older more matured product while Vite is new product with some unique featues.
+	Both tools are comparable in performance. Analysis activity was performed to determine better option.
+	Both tools were evaulated on following criterias: 
+		Pros and Cons, No. of versions released and frequency of release, stable versions, community size and performance.
+	Analysis result were shared with the PO and team. 
+	Based on analysis team concluded that switching to Vite from Jest would be additional overhead without much advantage.
+	Hence, team dropped the idea to switch to Vite and continue with Jest, thus saving addtional efforts.
+	
+	
+Dynatrace:
+	The Dynatrace unified observability and security platform uses AI to provide infrastructure monitoring, applications and microservices monitoring, 
+	application security, digital experience, business analytics, and cloud automation capabilities
+	Holger application is already onboarded to Dynatrace. 
+	Dynatrace can be configured to monitor different activities of HOLGER such as user activities, number and type of request and responses, 
+	security, attacks etc
+	
+	
+SCD deployment using DevOps in Bitbucket
+	Deployment of new project i.e SCD using DevOps in BitBucket.
+	DevOps has changed the way application is deployed and reducded the deployement cycle which leads to faster product release.
+	BitBucket is code management tool which as CI/CD capabilities and integration with JIRA and Cloud.
+	
+	
+GraphQL:
+	GraphQL is an open-source data query and manipulation language for APIs and a query runtime engine.
+	GraphQL enables declarative data fetching where a client can specify exactly what data it needs from an API.
+	
+	Implementation of REST with GraphQL to fetch only required data. 
+	This has resulted in removal of over-fetching or under-fetching of data as in case of traditional REST calls.
+	Also in some cases which involved complexity, tradition REST approach requires multiple calls whereas 
+	in GraphQL single call is required thus saving time on multiple calls.
+	
+	
